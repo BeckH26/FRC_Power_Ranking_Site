@@ -1,0 +1,611 @@
+[
+    {
+        "team_number": "frc9496",
+        "team_name": "LYNK",
+        "pi_value": 278.42824283931054,
+        "ranking_points": 1,
+        "pi_rank": 1
+    },
+    {
+        "team_number": "frc8738",
+        "team_name": "Slice",
+        "pi_value": 175.88672718031435,
+        "ranking_points": 2,
+        "pi_rank": 2
+    },
+    {
+        "team_number": "frc587",
+        "team_name": "The Hedgehogs",
+        "pi_value": 163.26786824321863,
+        "ranking_points": 3,
+        "pi_rank": 3
+    },
+    {
+        "team_number": "frc4534",
+        "team_name": "Wired Wizards",
+        "pi_value": 162.22554639917425,
+        "ranking_points": 16,
+        "pi_rank": 4
+    },
+    {
+        "team_number": "frc6894",
+        "team_name": "Iced Java",
+        "pi_value": 126.44464167183372,
+        "ranking_points": 50,
+        "pi_rank": 5
+    },
+    {
+        "team_number": "frc4795",
+        "team_name": "Eastbots",
+        "pi_value": 126.08101646929342,
+        "ranking_points": 4,
+        "pi_rank": 6
+    },
+    {
+        "team_number": "frc9198",
+        "team_name": "The Beach Botz",
+        "pi_value": 121.94687884532425,
+        "ranking_points": 54,
+        "pi_rank": 7
+    },
+    {
+        "team_number": "frc5727",
+        "team_name": "Omegabytes",
+        "pi_value": 121.81851565607707,
+        "ranking_points": 11,
+        "pi_rank": 8
+    },
+    {
+        "team_number": "frc4561",
+        "team_name": "TerrorBytes",
+        "pi_value": 120.87927080054651,
+        "ranking_points": 5,
+        "pi_rank": 9
+    },
+    {
+        "team_number": "frc900",
+        "team_name": "The Zebracorns",
+        "pi_value": 116.35748352334024,
+        "ranking_points": 29,
+        "pi_rank": 10
+    },
+    {
+        "team_number": "frc6502",
+        "team_name": "DARC SIDE",
+        "pi_value": 116.1992169961323,
+        "ranking_points": 7,
+        "pi_rank": 11
+    },
+    {
+        "team_number": "frc8727",
+        "team_name": "Glitch 2.0",
+        "pi_value": 114.48326270036118,
+        "ranking_points": 12,
+        "pi_rank": 12
+    },
+    {
+        "team_number": "frc9008",
+        "team_name": "G-Force Robotics",
+        "pi_value": 111.90307926267838,
+        "ranking_points": 20,
+        "pi_rank": 13
+    },
+    {
+        "team_number": "frc1533",
+        "team_name": "Triple Strange",
+        "pi_value": 111.03507357781639,
+        "ranking_points": 8,
+        "pi_rank": 14
+    },
+    {
+        "team_number": "frc2059",
+        "team_name": "The Hitchhikers",
+        "pi_value": 109.65605643302692,
+        "ranking_points": 6,
+        "pi_rank": 15
+    },
+    {
+        "team_number": "frc6500",
+        "team_name": "GearCats",
+        "pi_value": 106.90349278030571,
+        "ranking_points": 15,
+        "pi_rank": 16
+    },
+    {
+        "team_number": "frc8429",
+        "team_name": "Valence Robotics",
+        "pi_value": 106.7655539225775,
+        "ranking_points": 10,
+        "pi_rank": 17
+    },
+    {
+        "team_number": "frc10077",
+        "team_name": "The H.E.I.S.T.",
+        "pi_value": 104.15345491663481,
+        "ranking_points": 49,
+        "pi_rank": 18
+    },
+    {
+        "team_number": "frc2724",
+        "team_name": "Avalanche Robotics",
+        "pi_value": 102.14042285290707,
+        "ranking_points": 24,
+        "pi_rank": 19
+    },
+    {
+        "team_number": "frc3196",
+        "team_name": "Team SPORK",
+        "pi_value": 94.88554317524613,
+        "ranking_points": 32,
+        "pi_rank": 20
+    },
+    {
+        "team_number": "frc7763",
+        "team_name": "Carrborobotics",
+        "pi_value": 93.51088244493931,
+        "ranking_points": 13,
+        "pi_rank": 21
+    },
+    {
+        "team_number": "frc9297",
+        "team_name": "BOGOBOTS",
+        "pi_value": 93.45654718072639,
+        "ranking_points": 59,
+        "pi_rank": 22
+    },
+    {
+        "team_number": "frc9607",
+        "team_name": "RJR Cyber Demons",
+        "pi_value": 92.34667555335879,
+        "ranking_points": 46,
+        "pi_rank": 23
+    },
+    {
+        "team_number": "frc10248",
+        "team_name": "Iron Byrds",
+        "pi_value": 89.04872469848807,
+        "ranking_points": 44,
+        "pi_rank": 24
+    },
+    {
+        "team_number": "frc9032",
+        "team_name": "RoboWhales",
+        "pi_value": 88.9247659766654,
+        "ranking_points": 25,
+        "pi_rank": 25
+    },
+    {
+        "team_number": "frc3737",
+        "team_name": "Roto Raptors",
+        "pi_value": 88.19256097345054,
+        "ranking_points": 17,
+        "pi_rank": 26
+    },
+    {
+        "team_number": "frc4861",
+        "team_name": "Beastbots",
+        "pi_value": 87.03682230484844,
+        "ranking_points": 9,
+        "pi_rank": 27
+    },
+    {
+        "team_number": "frc4828",
+        "team_name": "RoboEagles",
+        "pi_value": 86.2125076893211,
+        "ranking_points": 14,
+        "pi_rank": 28
+    },
+    {
+        "team_number": "frc7890",
+        "team_name": "SeQuEnCe",
+        "pi_value": 85.68614785106803,
+        "ranking_points": 37,
+        "pi_rank": 29
+    },
+    {
+        "team_number": "frc8205",
+        "team_name": "Mind Over Metal",
+        "pi_value": 83.89099477826883,
+        "ranking_points": 57,
+        "pi_rank": 30
+    },
+    {
+        "team_number": "frc3822",
+        "team_name": "Neon Krakens",
+        "pi_value": 81.95756495722038,
+        "ranking_points": 61,
+        "pi_rank": 31
+    },
+    {
+        "team_number": "frc3506",
+        "team_name": "YETI Robotics",
+        "pi_value": 80.2914870500065,
+        "ranking_points": 30,
+        "pi_rank": 32
+    },
+    {
+        "team_number": "frc9298",
+        "team_name": "Greenies",
+        "pi_value": 76.85855679964479,
+        "ranking_points": 22,
+        "pi_rank": 33
+    },
+    {
+        "team_number": "frc6932",
+        "team_name": "SMART",
+        "pi_value": 75.75927725179548,
+        "ranking_points": 40,
+        "pi_rank": 34
+    },
+    {
+        "team_number": "frc2640",
+        "team_name": "HOTBOTZ",
+        "pi_value": 75.68223993915807,
+        "ranking_points": 42,
+        "pi_rank": 35
+    },
+    {
+        "team_number": "frc2642",
+        "team_name": "Pitt Pirates",
+        "pi_value": 74.14274297011337,
+        "ranking_points": 21,
+        "pi_rank": 36
+    },
+    {
+        "team_number": "frc4935",
+        "team_name": "T-Rex",
+        "pi_value": 73.79909352786291,
+        "ranking_points": 33,
+        "pi_rank": 37
+    },
+    {
+        "team_number": "frc9296",
+        "team_name": "TITANium",
+        "pi_value": 72.77689803823294,
+        "ranking_points": 83,
+        "pi_rank": 38
+    },
+    {
+        "team_number": "frc10583",
+        "team_name": "Stampede",
+        "pi_value": 72.7605843991595,
+        "ranking_points": 36,
+        "pi_rank": 39
+    },
+    {
+        "team_number": "frc8304",
+        "team_name": "Robot MaSTrs",
+        "pi_value": 72.16245183254841,
+        "ranking_points": 82,
+        "pi_rank": 40
+    },
+    {
+        "team_number": "frc6639",
+        "team_name": "The Mechanical Minds",
+        "pi_value": 70.94715686740763,
+        "ranking_points": 26,
+        "pi_rank": 41
+    },
+    {
+        "team_number": "frc4829",
+        "team_name": "Titanium Tigers",
+        "pi_value": 69.83061476795227,
+        "ranking_points": 19,
+        "pi_rank": 42
+    },
+    {
+        "team_number": "frc8758",
+        "team_name": "Tar-Robo Turtles",
+        "pi_value": 69.69360328426474,
+        "ranking_points": 41,
+        "pi_rank": 43
+    },
+    {
+        "team_number": "frc9150",
+        "team_name": "Labyrinth Robotics",
+        "pi_value": 68.58106867802533,
+        "ranking_points": 51,
+        "pi_rank": 44
+    },
+    {
+        "team_number": "frc10072",
+        "team_name": "WhirlyBots",
+        "pi_value": 67.1540991008872,
+        "ranking_points": 39,
+        "pi_rank": 45
+    },
+    {
+        "team_number": "frc1225",
+        "team_name": "The Gorillas",
+        "pi_value": 66.46430201794286,
+        "ranking_points": 48,
+        "pi_rank": 46
+    },
+    {
+        "team_number": "frc10304",
+        "team_name": "Circuit Breakers",
+        "pi_value": 64.83088137275676,
+        "ranking_points": 60,
+        "pi_rank": 47
+    },
+    {
+        "team_number": "frc8746",
+        "team_name": "Knights",
+        "pi_value": 63.272780189035046,
+        "ranking_points": 27,
+        "pi_rank": 48
+    },
+    {
+        "team_number": "frc3229",
+        "team_name": "Hawktimus Prime",
+        "pi_value": 60.24778310854718,
+        "ranking_points": 28,
+        "pi_rank": 49
+    },
+    {
+        "team_number": "frc6004",
+        "team_name": "f(x) Robotics",
+        "pi_value": 59.23252361014982,
+        "ranking_points": 31,
+        "pi_rank": 50
+    },
+    {
+        "team_number": "frc3459",
+        "team_name": "Team PyroTech",
+        "pi_value": 58.171427321009226,
+        "ranking_points": 38,
+        "pi_rank": 51
+    },
+    {
+        "team_number": "frc6512",
+        "team_name": "Coastal Catastrophe 6512",
+        "pi_value": 55.946382859277875,
+        "ranking_points": 77,
+        "pi_rank": 52
+    },
+    {
+        "team_number": "frc7443",
+        "team_name": "Jag-Wires",
+        "pi_value": 55.30708252620923,
+        "ranking_points": 63,
+        "pi_rank": 53
+    },
+    {
+        "team_number": "frc6908",
+        "team_name": "Infuzed",
+        "pi_value": 52.46619092922767,
+        "ranking_points": 67,
+        "pi_rank": 54
+    },
+    {
+        "team_number": "frc5160",
+        "team_name": "Chargers",
+        "pi_value": 52.371287127955505,
+        "ranking_points": 34,
+        "pi_rank": 55
+    },
+    {
+        "team_number": "frc5511",
+        "team_name": "Cortechs Robotics",
+        "pi_value": 51.60184415899784,
+        "ranking_points": 18,
+        "pi_rank": 56
+    },
+    {
+        "team_number": "frc10107",
+        "team_name": "ThunderBirdz",
+        "pi_value": 50.96795279906343,
+        "ranking_points": 45,
+        "pi_rank": 57
+    },
+    {
+        "team_number": "frc9605",
+        "team_name": "Creek Commanders",
+        "pi_value": 50.78420567173974,
+        "ranking_points": 52,
+        "pi_rank": 58
+    },
+    {
+        "team_number": "frc6242",
+        "team_name": "Chaos Theory",
+        "pi_value": 50.39022217511054,
+        "ranking_points": 53,
+        "pi_rank": 59
+    },
+    {
+        "team_number": "frc3336",
+        "team_name": "Zimanators",
+        "pi_value": 49.18508346755737,
+        "ranking_points": 65,
+        "pi_rank": 60
+    },
+    {
+        "team_number": "frc5919",
+        "team_name": "JoCo RoBos",
+        "pi_value": 47.95486726579914,
+        "ranking_points": 55,
+        "pi_rank": 61
+    },
+    {
+        "team_number": "frc8757",
+        "team_name": "GeodeBots",
+        "pi_value": 46.898495474636675,
+        "ranking_points": 73,
+        "pi_rank": 62
+    },
+    {
+        "team_number": "frc5190",
+        "team_name": "Falcon Fury",
+        "pi_value": 46.529069474257874,
+        "ranking_points": 23,
+        "pi_rank": 63
+    },
+    {
+        "team_number": "frc6888",
+        "team_name": "Foothills Robotics",
+        "pi_value": 45.25738815469588,
+        "ranking_points": 62,
+        "pi_rank": 64
+    },
+    {
+        "team_number": "frc10302",
+        "team_name": "Byte Force",
+        "pi_value": 44.48062755958129,
+        "ranking_points": 64,
+        "pi_rank": 65
+    },
+    {
+        "team_number": "frc10412",
+        "team_name": "TechBotTronics-1RSNC",
+        "pi_value": 42.70419301108161,
+        "ranking_points": 72,
+        "pi_rank": 66
+    },
+    {
+        "team_number": "frc9762",
+        "team_name": "Raccoon Robotics",
+        "pi_value": 42.19658842246108,
+        "ranking_points": 35,
+        "pi_rank": 67
+    },
+    {
+        "team_number": "frc10260",
+        "team_name": "RoboJags",
+        "pi_value": 41.83846104029682,
+        "ranking_points": 43,
+        "pi_rank": 68
+    },
+    {
+        "team_number": "frc9005",
+        "team_name": "Avian Robotics",
+        "pi_value": 40.552284858310536,
+        "ranking_points": 70,
+        "pi_rank": 69
+    },
+    {
+        "team_number": "frc9789",
+        "team_name": "Platinum Ringleaders",
+        "pi_value": 37.189866151462056,
+        "ranking_points": 47,
+        "pi_rank": 70
+    },
+    {
+        "team_number": "frc5518",
+        "team_name": "Techno Wolves",
+        "pi_value": 31.453984604435078,
+        "ranking_points": 66,
+        "pi_rank": 71
+    },
+    {
+        "team_number": "frc10354",
+        "team_name": "Sting",
+        "pi_value": 27.45185116585151,
+        "ranking_points": 68,
+        "pi_rank": 72
+    },
+    {
+        "team_number": "frc8090",
+        "team_name": "Mavnesium",
+        "pi_value": 25.17499350972949,
+        "ranking_points": 58,
+        "pi_rank": 73
+    },
+    {
+        "team_number": "frc3680",
+        "team_name": "Elemental Dragons",
+        "pi_value": 22.400330883470886,
+        "ranking_points": 74,
+        "pi_rank": 74
+    },
+    {
+        "team_number": "frc6729",
+        "team_name": "RobCoBots",
+        "pi_value": 21.928278867813365,
+        "ranking_points": 76,
+        "pi_rank": 75
+    },
+    {
+        "team_number": "frc5607",
+        "team_name": "Team Firewall",
+        "pi_value": 21.060094011266283,
+        "ranking_points": 75,
+        "pi_rank": 76
+    },
+    {
+        "team_number": "frc10121",
+        "team_name": "TMSA MechaTiger",
+        "pi_value": 20.76678694658892,
+        "ranking_points": 56,
+        "pi_rank": 77
+    },
+    {
+        "team_number": "frc9724",
+        "team_name": "Cross Circuit Christians",
+        "pi_value": 17.83454111789321,
+        "ranking_points": 81,
+        "pi_rank": 78
+    },
+    {
+        "team_number": "frc7671",
+        "team_name": "Fire Hazard 7671",
+        "pi_value": 16.43038503207229,
+        "ranking_points": 69,
+        "pi_rank": 79
+    },
+    {
+        "team_number": "frc9559",
+        "team_name": "EagleTron",
+        "pi_value": 15.069280637647985,
+        "ranking_points": 71,
+        "pi_rank": 80
+    },
+    {
+        "team_number": "frc9042",
+        "team_name": "SOARIN",
+        "pi_value": 11.185705042564514,
+        "ranking_points": 84,
+        "pi_rank": 81
+    },
+    {
+        "team_number": "frc6240",
+        "team_name": "Eagles of the Knight",
+        "pi_value": 10.878379749966724,
+        "ranking_points": 79,
+        "pi_rank": 82
+    },
+    {
+        "team_number": "frc435",
+        "team_name": "Robodogs",
+        "pi_value": 6.871670879434677,
+        "ranking_points": 80,
+        "pi_rank": 83
+    },
+    {
+        "team_number": "frc4816",
+        "team_name": "Gadget Girls",
+        "pi_value": 4.256151401307441,
+        "ranking_points": 87,
+        "pi_rank": 84
+    },
+    {
+        "team_number": "frc9788",
+        "team_name": "R.A.M.",
+        "pi_value": 1.9559597719491457,
+        "ranking_points": 78,
+        "pi_rank": 85
+    },
+    {
+        "team_number": "frc3349",
+        "team_name": "Static",
+        "pi_value": -4.100709579159018,
+        "ranking_points": 85,
+        "pi_rank": 86
+    },
+    {
+        "team_number": "frc10704",
+        "team_name": "HCAM Robotics Team",
+        "pi_value": null,
+        "ranking_points": 86,
+        "pi_rank": 87
+    }
+]

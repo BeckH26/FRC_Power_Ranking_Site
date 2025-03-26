@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>North Carolina Events</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    .back-button {
+      display: block;
+      margin: 10px auto;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      text-align: center;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .back-button:hover {
+      background-color: #0056b3;
+    }
+    .accuracy-bar {
+      margin: 20px 0;
+      padding: 15px;
+      background-color: #f0f0f0;
+      text-align: center;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .event-container {
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      background-color: #fff;
+      padding: 10px;
+    }
+    .event-header {
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      margin: 0;
+      padding: 10px;
+      background-color: #007bff;
+      color: white;
+      border-radius: 5px;
+      text-align: center;
+    }
+    .event-header:hover {
+      background-color: #0056b3;
+    }
+    .event-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+      display: none; /* Initially hidden */
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #f4f4f4;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+  </style>
+</head>
+<body>
+<!-- Back Button -->
+<a href="homepage.html" class="back-button">Back to Homepage</a>
+
+<h1>North Carolina Events</h1>
+
+<!-- Prediction Accuracy -->
+<div id="accuracy-bar" class="accuracy-bar">
+  Calculating prediction accuracy...
+</div>
+
+<div id="events-container">
+  <!-- Event tables will be dynamically added here -->
+</div>
+
+<script>
+  const eventFiles = [
+    "2025ncash.json",
+    "2025nccat.json",
+    "2025ncgre.json",
+    "2025ncmec.json",
+    "2025ncwak.json"
+  ];
+
+  const eventsContainer = document.getElementById("events-container");
+  const accuracyBar = document.getElementById("accuracy-bar");
+
+  let totalPredictions = 0;
+  let correctPredictions = 0;
+
+  eventFiles.forEach(file => {
+    // Fetch event data from each JSON file
+    fetch(file)
+            .then(response => {
+              if (!response.ok) {
+                throw new Error(`Failed to load ${file}`);
+              }
+              return response.json();
+            })
+            .then(matches => {
+              // Update prediction stats
+              matches.forEach(match => {
+                totalPredictions++;
+                if (match.predicted_winner === match.real_winner) {
+                  correctPredictions++;
+                }
+              });
+
+              // Create container for the event
+              const eventContainer = document.createElement("div");
+              eventContainer.className = "event-container";
+
+              // Event header
+              const eventHeader = document.createElement("div");
+              eventHeader.className = "event-header";
+              eventHeader.textContent = `Event: ${file.replace(".json", "")}`;
+              eventHeader.addEventListener("click", () => {
+                const table = eventContainer.querySelector(".event-table");
+                table.style.display = table.style.display === "none" ? "table" : "none";
+              });
+              eventContainer.appendChild(eventHeader);
+
+              // Event table
+              const eventTable = document.createElement("table");
+              eventTable.className = "event-table";
+
+              // Table headers
+              eventTable.innerHTML = `
+            <thead>
+              <tr>
+                <th>Match Number</th>
+                <th>Predicted Winner</th>
+                <th>Real Winner</th>
+                <th>Red Teams</th>
+                <th>Blue Teams</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${matches.map(match => `
+                <tr>
+                  <td>${match.match_number}</td>
+                  <td>${match.predicted_winner}</td>
+                  <td>${match.real_winner}</td>
+                  <td>${match.red_teams.map(team => team.replace("frc", "")).join(", ")}</td>
+                  <td>${match.blue_teams.map(team => team.replace("frc", "")).join(", ")}</td>
+                </tr>
+              `).join("")}
+            </tbody>
+          `;
+              eventContainer.appendChild(eventTable);
+
+              // Add event container to the page
+              eventsContainer.appendChild(eventContainer);
+
+              // Update accuracy display
+              const accuracy = ((correctPredictions / totalPredictions) * 100).toFixed(2);
+              accuracyBar.textContent = `Prediction Accuracy: ${accuracy}% (${correctPredictions} correct out of ${totalPredictions} predictions)`;
+            })
+            .catch(error => {
+              console.error(error);
+              const errorMessage = document.createElement("p");
+              errorMessage.textContent = `Error loading data for ${file}: ${error.message}`;
+              eventsContainer.appendChild(errorMessage);
+            });
+  });
+</script>
+</body>
+</html>

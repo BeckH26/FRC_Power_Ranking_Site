@@ -1,0 +1,1187 @@
+[
+    {
+        "match_number": 1,
+        "predicted_winner": "blue",
+        "real_winner": "red",
+        "red_teams": [
+            "frc9032",
+            "frc5190",
+            "frc2059"
+        ],
+        "blue_teams": [
+            "frc7443",
+            "frc4861",
+            "frc900"
+        ]
+    },
+    {
+        "match_number": 2,
+        "predicted_winner": "blue",
+        "real_winner": "red",
+        "red_teams": [
+            "frc9032",
+            "frc5190",
+            "frc2059"
+        ],
+        "blue_teams": [
+            "frc7443",
+            "frc4861",
+            "frc900"
+        ]
+    },
+    {
+        "match_number": 1,
+        "predicted_winner": "blue",
+        "real_winner": "blue",
+        "red_teams": [
+            "frc9788",
+            "frc10302",
+            "frc10121"
+        ],
+        "blue_teams": [
+            "frc5607",
+            "frc8738",
+            "frc900"
+        ]
+    },
+    {
+        "match_number": 10,
+        "predicted_winner": "blue",
+        "real_winner": "blue",
+        "red_teams": [
+            "frc8090",
+            "frc4816",
+            "frc5919"
+        ],
+        "blue_teams": [
+            "frc4861",
+            "frc10072",
+            "frc10121"
+        ]
+    },
+    {
+        "match_number": 11,
+        "predicted_winner": "red",
+        "real_winner": "red",
+        "red_teams": [
+            "frc7671",
+            "frc6908",
+            "frc900"
+        ],
+        "blue_teams": [
+            "frc7443",
+            "frc10260",
+            "frc9788"
+        ]
+    },
+    {
+        "match_number": 12,
+        "predicted_winner": "blue",
+        "real_winner": "blue",
+        "red_teams": [
+            "frc5160",
+            "frc5607",
+            "frc2642"
+        ],
+        "blue_teams": [
+            "frc8738",
+            "frc9042",
+            "frc3349"
+        ]
+    },
+    {
+        "match_number": 13,
+        "predicted_winner": "blue",
+        "real_winner": "red",
+        "red_teams": [
+            "frc9789",
+            "frc10121",
+            "frc3459"
+        ],
+        "blue_teams": [
+            "frc4861",
+            "frc4816",
+            "frc10302"
+        ]
+    },
+    {
+        "match_number": 14,
+        "predicted_winner": "blue",
+        "real_winner": "blue",
+        "red_teams": [
+            "frc5190",
+            "frc3229",
+            "frc7671"
+        ],
+        "blue_teams": [
+            "frc9032",
+            "frc10260",
+            "frc5518"
+        ]
+    },
+    {
+        "match_number": 15,
+        "predicted_winner": "red",
+        "real_winner": "red",
+        "red_teams": [
+            "frc5511",
+            "frc8758",
+            "frc8746"
+        ],
+        "blue_teams": [
+            "frc7443",
+            "frc8090",
+            "frc6908"
+        ]
+    },
+    {
+        "match_number": 16,
+        "predicted_winner": "blue",
+        "real_winner": "blue",
+        "red_teams": [
+            "frc435",
+            "frc5919",
+            "frc10072"
+        ],
+        "blue_teams": [
+            "frc6240",
+            "frc4795",
+            "frc2059"
+        ]
+    },
+    {
+        "match_number": 17,
+        "predicted_winner": "blue",
+        "real_winner": "blue",
+        "red_teams": [
+            "frc9788",
+            "frc4816",
+            "frc9032"
+        ],
+        "blue_teams": [
+            "frc5518",
+            "frc2642",
+            "frc3349"
+        ]
+    },
+    {
+        "match_number": 18,
+        "predicted_winner": "blue",
+        "real_winner": "blue",
+        "red_teams": [
+            "frc8746",
+            "frc7671",
+            "frc10302"
+        ],
+        "blue_teams": [
+            "frc4861",
+            "frc9042",
+            "frc8758"
+        ]
+    },
+    {
+        "match_number": 19,
+        "predicted_winner": "red",
+        "real_winner": "blue",
+        "red_teams": [
+            "frc10072",
+            "frc3459",
+            "frc5190"
+        ],
+        "blue_teams": [
+            "frc8090",
+            "frc900",
+            "frc435"
+        ]
+    },
+    {
+        "match_number": 2,
+        "predicted_winner": "blue",
+        "real_winner": "blue",
+        "red_teams": [
+            "frc5511",
+            "frc4861",
+            "frc9789"
+        ],
+        "blue_teams": [
+            "frc7443",
+            "frc9032",
+            "frc5160"
+        ]
+    },
+    {
+        "match_number": 20,
+        "predicted_winner": "red",
+        "real_winner": "red",
+        "red_teams": [
+            "frc9789",
+            "frc7443",
+            "frc8738"
+        ],
+        "blue_teams": [
+            "frc6240",
+            "frc5919",
+            "frc3229"
+        ]
+    },
+    {
+        "match_number": 21,
+        "predicted_winner": "red",
+        "real_winner": "blue",
+        "red_teams": [
+            "frc5607",
+            "frc6908",
+            "frc4795"
+        ],
+        "blue_teams": [
+            "frc10121",
+            "frc2059",
+            "frc5160"
+        ]
+    },
+    {
+        "match_number": 22,
+        "predicted_winner": "red",
+        "real_winner": "red",
+        "red_teams": [
+            "frc10260",
+            "frc8758",
+            "frc8090"
+        ],
+        "blue_teams": [
+            "frc5511",
+            "frc435",
+            "frc5518"
+        ]
+    },
+    {
+        "match_number": 23,
+        "predicted_winner": "red",
+        "real_winner": "red",
+        "red_teams": [
+            "frc5919",
+            "frc9789",
+            "frc9032"
+        ],
+        "blue_teams": [
+            "frc9042",
+            "frc8746",
+            "frc10072"
+        ]
+    },
+    {
+        "match_number": 24,
+        "predicted_winner": "blue",
+        "real_winner": "blue",
+        "red_teams": [
+            "frc6240",
+            "frc7443",
+            "frc5607"
+        ],
+        "blue_teams": [
+            "frc5190",
+            "frc9788",
+            "frc8738"
+        ]
+    },
+    {
+        "match_number": 25,
+        "predicted_winner": "red",
+        "real_winner": "blue",
+        "red_teams": [
+            "frc3229",
+            "frc900",
+            "frc2642"
+        ],
+        "blue_teams": [
+            "frc3459",
+            "frc4861",
+            "frc5160"
+        ]
+    },
+    {
+        "match_number": 26,
+        "predicted_winner": "red",
+        "real_winner": "blue",
+        "red_teams": [
+            "frc10302",
+            "frc6908",
+            "frc3349"
+        ],
+        "blue_teams": [
+            "frc4816",
+            "frc10121",
+            "frc10260"
+        ]
+    },
+    {
+        "match_number": 27,
+        "predicted_winner": "blue",
+        "real_winner": "red",
+        "red_teams": [
+            "frc4795",
+            "frc5511",
+            "frc8090"
+        ],
+        "blue_teams": [
+            "frc2059",
+            "frc7671",
+            "frc8738"
+        ]
+    },
+    {
+        "match_number": 28,
+        "predicted_winner": "blue",
+        "real_winner": "blue",
+        "red_teams": [
+            "frc5607",
+            "frc10072",
+            "frc8758"
+        ],
+        "blue_teams": [
+            "frc5919",
+            "frc2642",
+            "frc4861"
+        ]
+    },
+    {
+        "match_number": 29,
+        "predicted_winner": "blue",
+        "real_winner": "blue",
+        "red_teams": [
+            "frc9788",
+            "frc5518",
+            "frc3459"
+        ],
+        "blue_teams": [
+            "frc9789",
+            "frc10260",
+            "frc5190"
+        ]
+    },
+    {
+        "match_number": 3,
+        "predicted_winner": "red",
+        "real_winner": "red",
+        "red_teams": [
+            "frc10072",
+            "frc3229",
+            "frc2059"
+        ],
+        "blue_teams": [
+            "frc8758",
+            "frc5190",
+            "frc6908"
+        ]
+    },
+    {
+        "match_number": 30,
+        "predicted_winner": "blue",
+        "real_winner": "red",
+        "red_teams": [
+            "frc9042",
+            "frc10121",
+            "frc6908"
+        ],
+        "blue_teams": [
+            "frc7671",
+            "frc5511",
+            "frc7443"
+        ]
+    },
+    {
+        "match_number": 31,
+        "predicted_winner": "red",
+        "real_winner": "red",
+        "red_teams": [
+            "frc2059",
+            "frc900",
+            "frc9032"
+        ],
+        "blue_teams": [
+            "frc3349",
+            "frc6240",
+            "frc4816"
+        ]
+    },
+    {
+        "match_number": 32,
+        "predicted_winner": "blue",
+        "real_winner": "blue",
+        "red_teams": [
+            "frc5160",
+            "frc435",
+            "frc8746"
+        ],
+        "blue_teams": [
+            "frc10302",
+            "frc4795",
+            "frc3229"
+        ]
+    },
+    {
+        "match_number": 33,
+        "predicted_winner": "red",
+        "real_winner": "red",
+        "red_teams": [
+            "frc10121",
+            "frc8738",
+            "frc5511"
+        ],
+        "blue_teams": [
+            "frc2642",
+            "frc5190",
+            "frc7443"
+        ]
+    },
+    {
+        "match_number": 34,
+        "predicted_winner": "red",
+        "real_winner": "red",
+        "red_teams": [
+            "frc900",
+            "frc5919",
+            "frc3459"
+        ],
+        "blue_teams": [
+            "frc5607",
+            "frc9032",
+            "frc7671"
+        ]
+    },
+    {
+        "match_number": 35,
+        "predicted_winner": "blue",
+        "real_winner": "blue",
+        "red_teams": [
+            "frc4861",
+            "frc9788",
+            "frc2059"
+        ],
+        "blue_teams": [
+            "frc10260",
+            "frc4795",
+            "frc8746"
+        ]
+    },
+    {
+        "match_number": 36,
+        "predicted_winner": "blue",
+        "real_winner": "blue",
+        "red_teams": [
+            "frc8090",
+            "frc6240",
+            "frc9042"
+        ],
+        "blue_teams": [
+            "frc5160",
+            "frc4816",
+            "frc3229"
+        ]
+    },
+    {
+        "match_number": 37,
+        "predicted_winner": "red",
+        "real_winner": "red",
+        "red_teams": [
+            "frc8758",
+            "frc10302",
+            "frc435"
+        ],
+        "blue_teams": [
+            "frc10072",
+            "frc3349",
+            "frc9789"
+        ]
+    },
+    {
+        "match_number": 38,
+        "predicted_winner": "red",
+        "real_winner": "red",
+        "red_teams": [
+            "frc8746",
+            "frc6908",
+            "frc4861"
+        ],
+        "blue_teams": [
+            "frc5518",
+            "frc5607",
+            "frc5919"
+        ]
+    },
+    {
+        "match_number": 39,
+        "predicted_winner": "blue",
+        "real_winner": "blue",
+        "red_teams": [
+            "frc2642",
+            "frc9788",
+            "frc9042"
+        ],
+        "blue_teams": [
+            "frc8738",
+            "frc8090",
+            "frc2059"
+        ]
+    },
+    {
+        "match_number": 4,
+        "predicted_winner": "red",
+        "real_winner": "red",
+        "red_teams": [
+            "frc8746",
+            "frc5518",
+            "frc4816"
+        ],
+        "blue_teams": [
+            "frc435",
+            "frc2642",
+            "frc6240"
+        ]
+    },
+    {
+        "match_number": 40,
+        "predicted_winner": "red",
+        "real_winner": "red",
+        "red_teams": [
+            "frc10121",
+            "frc8758",
+            "frc4795"
+        ],
+        "blue_teams": [
+            "frc435",
+            "frc9032",
+            "frc5190"
+        ]
+    },
+    {
+        "match_number": 41,
+        "predicted_winner": "red",
+        "real_winner": "red",
+        "red_teams": [
+            "frc3459",
+            "frc5511",
+            "frc10260"
+        ],
+        "blue_teams": [
+            "frc9789",
+            "frc6240",
+            "frc10302"
+        ]
+    },
+    {
+        "match_number": 42,
+        "predicted_winner": "blue",
+        "real_winner": "blue",
+        "red_teams": [
+            "frc5518",
+            "frc5160",
+            "frc10072"
+        ],
+        "blue_teams": [
+            "frc3349",
+            "frc7443",
+            "frc900"
+        ]
+    },
+    {
+        "match_number": 43,
+        "predicted_winner": "red",
+        "real_winner": "red",
+        "red_teams": [
+            "frc6908",
+            "frc3229",
+            "frc8738"
+        ],
+        "blue_teams": [
+            "frc4816",
+            "frc7671",
+            "frc435"
+        ]
+    },
+    {
+        "match_number": 44,
+        "predicted_winner": "red",
+        "real_winner": "red",
+        "red_teams": [
+            "frc2642",
+            "frc9789",
+            "frc8090"
+        ],
+        "blue_teams": [
+            "frc5190",
+            "frc5607",
+            "frc10121"
+        ]
+    },
+    {
+        "match_number": 45,
+        "predicted_winner": "blue",
+        "real_winner": "red",
+        "red_teams": [
+            "frc5160",
+            "frc3349",
+            "frc10260"
+        ],
+        "blue_teams": [
+            "frc8746",
+            "frc5919",
+            "frc9788"
+        ]
+    },
+    {
+        "match_number": 46,
+        "predicted_winner": "blue",
+        "real_winner": "blue",
+        "red_teams": [
+            "frc7671",
+            "frc4861",
+            "frc6240"
+        ],
+        "blue_teams": [
+            "frc10302",
+            "frc10072",
+            "frc900"
+        ]
+    },
+    {
+        "match_number": 47,
+        "predicted_winner": "blue",
+        "real_winner": "blue",
+        "red_teams": [
+            "frc3229",
+            "frc3459",
+            "frc9032"
+        ],
+        "blue_teams": [
+            "frc6908",
+            "frc2059",
+            "frc5511"
+        ]
+    },
+    {
+        "match_number": 48,
+        "predicted_winner": "blue",
+        "real_winner": "blue",
+        "red_teams": [
+            "frc8758",
+            "frc7443",
+            "frc4816"
+        ],
+        "blue_teams": [
+            "frc9042",
+            "frc5518",
+            "frc4795"
+        ]
+    },
+    {
+        "match_number": 49,
+        "predicted_winner": "red",
+        "real_winner": "red",
+        "red_teams": [
+            "frc10260",
+            "frc6240",
+            "frc10072"
+        ],
+        "blue_teams": [
+            "frc2642",
+            "frc10121",
+            "frc7671"
+        ]
+    },
+    {
+        "match_number": 5,
+        "predicted_winner": "red",
+        "real_winner": "red",
+        "red_teams": [
+            "frc4795",
+            "frc3349",
+            "frc7671"
+        ],
+        "blue_teams": [
+            "frc3459",
+            "frc9042",
+            "frc8090"
+        ]
+    },
+    {
+        "match_number": 50,
+        "predicted_winner": "red",
+        "real_winner": "red",
+        "red_teams": [
+            "frc9032",
+            "frc8090",
+            "frc4861"
+        ],
+        "blue_teams": [
+            "frc9788",
+            "frc435",
+            "frc6908"
+        ]
+    },
+    {
+        "match_number": 51,
+        "predicted_winner": "red",
+        "real_winner": "",
+        "red_teams": [
+            "frc5518",
+            "frc2059",
+            "frc7443"
+        ],
+        "blue_teams": [
+            "frc3459",
+            "frc10302",
+            "frc5607"
+        ]
+    },
+    {
+        "match_number": 52,
+        "predicted_winner": "red",
+        "real_winner": "red",
+        "red_teams": [
+            "frc4816",
+            "frc900",
+            "frc5511"
+        ],
+        "blue_teams": [
+            "frc5919",
+            "frc5160",
+            "frc8758"
+        ]
+    },
+    {
+        "match_number": 53,
+        "predicted_winner": "blue",
+        "real_winner": "blue",
+        "red_teams": [
+            "frc5190",
+            "frc8746",
+            "frc3349"
+        ],
+        "blue_teams": [
+            "frc3229",
+            "frc9789",
+            "frc9042"
+        ]
+    },
+    {
+        "match_number": 54,
+        "predicted_winner": "red",
+        "real_winner": "red",
+        "red_teams": [
+            "frc8738",
+            "frc10302",
+            "frc2642"
+        ],
+        "blue_teams": [
+            "frc10072",
+            "frc4795",
+            "frc7443"
+        ]
+    },
+    {
+        "match_number": 55,
+        "predicted_winner": "red",
+        "real_winner": "blue",
+        "red_teams": [
+            "frc10121",
+            "frc9032",
+            "frc6240"
+        ],
+        "blue_teams": [
+            "frc8090",
+            "frc7671",
+            "frc5160"
+        ]
+    },
+    {
+        "match_number": 56,
+        "predicted_winner": "blue",
+        "real_winner": "blue",
+        "red_teams": [
+            "frc2059",
+            "frc5190",
+            "frc9042"
+        ],
+        "blue_teams": [
+            "frc900",
+            "frc8758",
+            "frc5518"
+        ]
+    },
+    {
+        "match_number": 57,
+        "predicted_winner": "red",
+        "real_winner": "red",
+        "red_teams": [
+            "frc4795",
+            "frc8738",
+            "frc5919"
+        ],
+        "blue_teams": [
+            "frc6908",
+            "frc10260",
+            "frc9789"
+        ]
+    },
+    {
+        "match_number": 58,
+        "predicted_winner": "red",
+        "real_winner": "red",
+        "red_teams": [
+            "frc3349",
+            "frc435",
+            "frc4861"
+        ],
+        "blue_teams": [
+            "frc5511",
+            "frc9788",
+            "frc5607"
+        ]
+    },
+    {
+        "match_number": 59,
+        "predicted_winner": "blue",
+        "real_winner": "blue",
+        "red_teams": [
+            "frc4816",
+            "frc3459",
+            "frc2642"
+        ],
+        "blue_teams": [
+            "frc3229",
+            "frc8746",
+            "frc10121"
+        ]
+    },
+    {
+        "match_number": 6,
+        "predicted_winner": "blue",
+        "real_winner": "red",
+        "red_teams": [
+            "frc10260",
+            "frc5607",
+            "frc3229"
+        ],
+        "blue_teams": [
+            "frc5919",
+            "frc5511",
+            "frc5190"
+        ]
+    },
+    {
+        "match_number": 60,
+        "predicted_winner": "blue",
+        "real_winner": "red",
+        "red_teams": [
+            "frc7671",
+            "frc5518",
+            "frc9789"
+        ],
+        "blue_teams": [
+            "frc6908",
+            "frc5160",
+            "frc6240"
+        ]
+    },
+    {
+        "match_number": 61,
+        "predicted_winner": "blue",
+        "real_winner": "blue",
+        "red_teams": [
+            "frc3349",
+            "frc8090",
+            "frc5607"
+        ],
+        "blue_teams": [
+            "frc9032",
+            "frc10072",
+            "frc5511"
+        ]
+    },
+    {
+        "match_number": 62,
+        "predicted_winner": "blue",
+        "real_winner": "blue",
+        "red_teams": [
+            "frc7443",
+            "frc9042",
+            "frc435"
+        ],
+        "blue_teams": [
+            "frc900",
+            "frc4861",
+            "frc10260"
+        ]
+    },
+    {
+        "match_number": 63,
+        "predicted_winner": "red",
+        "real_winner": "red",
+        "red_teams": [
+            "frc10302",
+            "frc2059",
+            "frc5919"
+        ],
+        "blue_teams": [
+            "frc8758",
+            "frc3229",
+            "frc9788"
+        ]
+    },
+    {
+        "match_number": 64,
+        "predicted_winner": "blue",
+        "real_winner": "blue",
+        "red_teams": [
+            "frc4795",
+            "frc5190",
+            "frc4816"
+        ],
+        "blue_teams": [
+            "frc8738",
+            "frc8746",
+            "frc3459"
+        ]
+    },
+    {
+        "match_number": 7,
+        "predicted_winner": "blue",
+        "real_winner": "blue",
+        "red_teams": [
+            "frc900",
+            "frc9789",
+            "frc9788"
+        ],
+        "blue_teams": [
+            "frc2059",
+            "frc2642",
+            "frc8746"
+        ]
+    },
+    {
+        "match_number": 8,
+        "predicted_winner": "red",
+        "real_winner": "red",
+        "red_teams": [
+            "frc6240",
+            "frc8738",
+            "frc5518"
+        ],
+        "blue_teams": [
+            "frc9032",
+            "frc3349",
+            "frc8758"
+        ]
+    },
+    {
+        "match_number": 9,
+        "predicted_winner": "blue",
+        "real_winner": "blue",
+        "red_teams": [
+            "frc9042",
+            "frc5160",
+            "frc10302"
+        ],
+        "blue_teams": [
+            "frc435",
+            "frc3459",
+            "frc4795"
+        ]
+    },
+    {
+        "match_number": 1,
+        "predicted_winner": "red",
+        "real_winner": "red",
+        "red_teams": [
+            "frc5919",
+            "frc10260",
+            "frc5160"
+        ],
+        "blue_teams": [
+            "frc5511",
+            "frc8090",
+            "frc10302"
+        ]
+    },
+    {
+        "match_number": 1,
+        "predicted_winner": "blue",
+        "real_winner": "red",
+        "red_teams": [
+            "frc9032",
+            "frc5190",
+            "frc2059"
+        ],
+        "blue_teams": [
+            "frc7443",
+            "frc4861",
+            "frc900"
+        ]
+    },
+    {
+        "match_number": 1,
+        "predicted_winner": "blue",
+        "real_winner": "blue",
+        "red_teams": [
+            "frc5919",
+            "frc10260",
+            "frc5160"
+        ],
+        "blue_teams": [
+            "frc4795",
+            "frc5518",
+            "frc8738"
+        ]
+    },
+    {
+        "match_number": 1,
+        "predicted_winner": "blue",
+        "real_winner": "red",
+        "red_teams": [
+            "frc7443",
+            "frc4861",
+            "frc900"
+        ],
+        "blue_teams": [
+            "frc4795",
+            "frc5518",
+            "frc8738"
+        ]
+    },
+    {
+        "match_number": 1,
+        "predicted_winner": "red",
+        "real_winner": "red",
+        "red_teams": [
+            "frc4795",
+            "frc5518",
+            "frc8738"
+        ],
+        "blue_teams": [
+            "frc5511",
+            "frc8090",
+            "frc10302"
+        ]
+    },
+    {
+        "match_number": 1,
+        "predicted_winner": "red",
+        "real_winner": "red",
+        "red_teams": [
+            "frc9032",
+            "frc5190",
+            "frc2059"
+        ],
+        "blue_teams": [
+            "frc6908",
+            "frc3229",
+            "frc10121"
+        ]
+    },
+    {
+        "match_number": 1,
+        "predicted_winner": "red",
+        "real_winner": "red",
+        "red_teams": [
+            "frc7443",
+            "frc4861",
+            "frc900"
+        ],
+        "blue_teams": [
+            "frc5607",
+            "frc2642",
+            "frc8746"
+        ]
+    },
+    {
+        "match_number": 1,
+        "predicted_winner": "blue",
+        "real_winner": "red",
+        "red_teams": [
+            "frc5919",
+            "frc10260",
+            "frc5160"
+        ],
+        "blue_teams": [
+            "frc8758",
+            "frc9789",
+            "frc3459"
+        ]
+    },
+    {
+        "match_number": 1,
+        "predicted_winner": "blue",
+        "real_winner": "red",
+        "red_teams": [
+            "frc5511",
+            "frc8090",
+            "frc10302"
+        ],
+        "blue_teams": [
+            "frc6908",
+            "frc3229",
+            "frc10121"
+        ]
+    },
+    {
+        "match_number": 1,
+        "predicted_winner": "blue",
+        "real_winner": "red",
+        "red_teams": [
+            "frc5607",
+            "frc2642",
+            "frc8746"
+        ],
+        "blue_teams": [
+            "frc8758",
+            "frc9789",
+            "frc3459"
+        ]
+    },
+    {
+        "match_number": 1,
+        "predicted_winner": "red",
+        "real_winner": "blue",
+        "red_teams": [
+            "frc4795",
+            "frc5518",
+            "frc8738"
+        ],
+        "blue_teams": [
+            "frc9032",
+            "frc5190",
+            "frc2059"
+        ]
+    },
+    {
+        "match_number": 1,
+        "predicted_winner": "red",
+        "real_winner": "red",
+        "red_teams": [
+            "frc7443",
+            "frc4861",
+            "frc900"
+        ],
+        "blue_teams": [
+            "frc5919",
+            "frc10260",
+            "frc5160"
+        ]
+    },
+    {
+        "match_number": 1,
+        "predicted_winner": "red",
+        "real_winner": "red",
+        "red_teams": [
+            "frc4795",
+            "frc5518",
+            "frc8738"
+        ],
+        "blue_teams": [
+            "frc5607",
+            "frc2642",
+            "frc8746"
+        ]
+    }
+]

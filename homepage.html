@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>North Carolina Teams Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            padding: 50px;
+        }
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 15px 30px;
+            font-size: 18px;
+            cursor: pointer;
+            margin: 10px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .search-bar {
+            margin-top: 30px;
+            text-align: center;
+        }
+        input[type="text"] {
+            padding: 10px;
+            width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button.search-btn {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button.search-btn:hover {
+            background-color: #0056b3;
+        }
+        .team-info {
+            margin-top: 30px;
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            display: none;
+            text-align: left;
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .team-info h2 {
+            text-align: center;
+            color: #333;
+        }
+        .team-info p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>North Carolina Teams Homepage</h1>
+</header>
+<div class="container">
+    <h2>Welcome to the Homepage for North Carolina Teams</h2>
+    <p>Click the buttons below to explore rankings or events, or find specific team details.</p>
+
+    <!-- Button to Rankings Page -->
+    <button onclick="location.href='rankings.html'">View North Carolina Team Rankings</button>
+
+    <!-- Button to Event Page -->
+    <button onclick="location.href='event.html'">Go to Event Page</button>
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+        <input type="text" id="team-search" placeholder="Enter Team Number (e.g., 6502)" />
+        <button class="search-btn" onclick="searchTeam()">Search Team Info</button>
+    </div>
+
+    <!-- Team Info Display -->
+    <div class="team-info" id="team-info">
+        <h2>Team Information</h2>
+        <p id="team-details"></p>
+    </div>
+</div>
+
+<script>
+    // Search functionality
+    function searchTeam() {
+        const input = document.getElementById('team-search').value.trim();
+        if (!input) {
+            alert('Please enter a valid team number.');
+            return;
+        }
+
+        // Add 'frc' prefix to team number for search
+        const teamKey = `frc${input}`;
+
+        // Fetch team data
+        fetch('NC_Data.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Failed to load NC_Data.json');
+                }
+                return response.json();
+            })
+            .then(data => {
+                const team = data.find(t => t.team_number === teamKey);
+                const teamInfoDiv = document.getElementById('team-info');
+                const teamDetails = document.getElementById('team-details');
+
+                if (team) {
+                    // Display team information
+                    teamDetails.innerHTML = `
+              <strong>PI Rank:</strong> ${team.pi_rank}<br>
+              <strong>Team Number:</strong> ${team.team_number}<br>
+              <strong>Team Name:</strong> ${team.team_name}<br>
+              <strong>PI Score:</strong> ${team.pi_value?.toFixed(2) || 'N/A'}<br>
+              <strong>Real Rank (Ranking Points):</strong> ${team.ranking_points || 'N/A'}
+            `;
+                    teamInfoDiv.style.display = 'block';
+                } else {
+                    // Show error if team is not found
+                    teamDetails.innerHTML = `No data found for team number ${input}.`;
+                    teamInfoDiv.style.display = 'block';
+                }
+            })
+            .catch(error => {
+                console.error('Error loading data:', error);
+                alert('Failed to fetch team data. Please try again later.');
+            });
+    }
+</script>
+</body>
+</html>

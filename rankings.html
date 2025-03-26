@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>North Carolina Teams Rankings</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    .back-button {
+      display: block;
+      margin: 20px auto;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .back-button:hover {
+      background-color: #0056b3;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #f4f4f4;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+  </style>
+</head>
+<body>
+<h1>North Carolina Teams Rankings</h1>
+
+<!-- Back Button -->
+<button class="back-button" onclick="location.href='homepage.html'">Back to Homepage</button>
+
+<!-- Rankings Table -->
+<table>
+  <thead>
+  <tr>
+    <th>PI Rank</th>
+    <th>Team Number</th>
+    <th>Team Name</th>
+    <th>PI Score</th>
+    <th>Real Rank (Ranking Points)</th>
+  </tr>
+  </thead>
+  <tbody id="ranking-table">
+  <!-- Data will be dynamically inserted here -->
+  </tbody>
+</table>
+
+<script>
+  // Fetch and display rankings data
+  fetch('NC_Data.json')
+          .then(response => {
+            if (!response.ok) {
+              throw new Error('Failed to load NC_Data.json');
+            }
+            return response.json();
+          })
+          .then(data => {
+            const tableBody = document.getElementById('ranking-table');
+            data.forEach(team => {
+              const row = document.createElement('tr');
+              row.innerHTML = `
+            <td>${team.pi_rank}</td>
+            <td>${team.team_number}</td>
+            <td>${team.team_name}</td>
+            <td>${team.pi_value?.toFixed(2) || 'N/A'}</td>
+            <td>${team.ranking_points || 'N/A'}</td>
+          `;
+              tableBody.appendChild(row);
+            });
+          })
+          .catch(error => {
+            console.error('Error loading data:', error);
+            document.getElementById('ranking-table').innerHTML = `<tr><td colspan="5">Error loading data</td></tr>`;
+          });
+</script>
+</body>
+</html>
