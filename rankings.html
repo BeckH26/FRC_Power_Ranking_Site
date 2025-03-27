@@ -4,30 +4,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>North Carolina Teams Rankings</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 20px;
-      padding: 0;
       background-color: #f9f9f9;
     }
     h1 {
       text-align: center;
       color: #333;
     }
-    .back-button {
-      display: block;
-      margin: 20px auto;
+    .tab-container {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .tab {
       padding: 10px 20px;
-      font-size: 16px;
+      margin: 0 5px;
+      cursor: pointer;
       background-color: #007bff;
       color: white;
       border: none;
       border-radius: 5px;
-      cursor: pointer;
+      font-size: 16px;
     }
-    .back-button:hover {
+    .tab:hover {
       background-color: #0056b3;
+    }
+    .active-tab {
+      background-color: #0056b3;
+    }
+    .content-container {
+      display: none;
+      margin-top: 20px;
+    }
+    .active-content {
+      display: block;
     }
     table {
       width: 100%;
@@ -48,57 +62,157 @@
     tr:hover {
       background-color: #f1f1f1;
     }
+    #chart-container {
+      width: 80%;
+      margin: auto;
+    }
   </style>
 </head>
 <body>
 <h1>North Carolina Teams Rankings</h1>
 
-<!-- Back Button -->
-<button class="back-button" onclick="location.href='homepage.html'">Back to Homepage</button>
+<div class="tab-container">
+  <button class="tab active-tab" onclick="switchTab('table-content')">Table View</button>
+  <button class="tab" onclick="switchTab('graph-content')">Graph View</button>
+</div>
 
-<!-- Rankings Table -->
-<table>
-  <thead>
-  <tr>
-    <th>PI Rank</th>
-    <th>Team Number</th>
-    <th>Team Name</th>
-    <th>PI Score</th>
-    <th>Real Rank (Ranking Points)</th>
-  </tr>
-  </thead>
-  <tbody id="ranking-table">
-  <!-- Data will be dynamically inserted here -->
-  </tbody>
-</table>
+<div id="table-content" class="content-container active-content">
+  <table>
+    <thead>
+    <tr>
+      <th>PI Rank</th>
+      <th>Team Number</th>
+      <th>Team Name</th>
+      <th>PI Score</th>
+      <th>Rank</th>
+      <th>Ranking Points</th>
+    </tr>
+    </thead>
+    <tbody id="ranking-table"></tbody>
+  </table>
+</div>
+
+<div id="graph-content" class="content-container">
+  <div id="chart-container">
+    <canvas id="rankingChart"></canvas>
+  </div>
+  <div style="text-align: center; margin-top: 20px;">
+    <label for="x-axis">X-Axis:</label>
+    <select id="x-axis" onchange="updateGraph()">
+      <option value="pi_rank">PI Rank</option>
+      <option value="team_number">Team Number</option>
+      <option value="ranking_points">Ranking Points</option>
+      <option value="pi_value">PI Score</option>
+    </select>
+    <label for="y-axis">Y-Axis:</label>
+    <select id="y-axis" onchange="updateGraph()">
+      <option value="ranking_points">Ranking Points</option>
+      <option value="pi_rank">PI Rank</option>
+      <option value="pi_value">PI Score</option>
+    </select>
+  </div>
+</div>
 
 <script>
-  // Fetch and display rankings data
+  function switchTab(tabId) {
+    document.querySelectorAll('.content-container').forEach(content => {
+      content.classList.remove('active-content');
+    });
+    document.querySelector(`#${tabId}`).classList.add('active-content');
+
+    document.querySelectorAll('.tab').forEach(tab => {
+      tab.classList.remove('active-tab');
+    });
+    document.querySelector(`[onclick="switchTab('${tabId}')"]`).classList.add('active-tab');
+  }
+
   fetch('NC_Data.json')
-          .then(response => {
-            if (!response.ok) {
-              throw new Error('Failed to load NC_Data.json');
-            }
-            return response.json();
-          })
+          .then(response => response.json())
           .then(data => {
             const tableBody = document.getElementById('ranking-table');
             data.forEach(team => {
               const row = document.createElement('tr');
               row.innerHTML = `
             <td>${team.pi_rank}</td>
-            <td>${team.team_number}</td>
+            <td>${team.team_number.replace('frc', '')}</td>
             <td>${team.team_name}</td>
             <td>${team.pi_value?.toFixed(2) || 'N/A'}</td>
+            <td>${team.rank || 'N/A'}</td>
             <td>${team.ranking_points || 'N/A'}</td>
           `;
               tableBody.appendChild(row);
             });
-          })
-          .catch(error => {
-            console.error('Error loading data:', error);
-            document.getElementById('ranking-table').innerHTML = `<tr><td colspan="5">Error loading data</td></tr>`;
+
+            initializeGraph(data);
           });
+
+  let chart;
+  function initializeGraph(data) {
+    const ctx = document.getElementById('rankingChart').getContext('2d');
+    chart = new Chart(ctx, {
+      type: 'scatter',
+      data: {
+        datasets: [{
+          label: 'Teams',
+          data: data.map(team => ({
+            x: team.pi_rank || 0,  // Default X-Axis
+            y: team.ranking_points || 0,  // Default Y-Axis
+            label: team.team_name
+          })),
+          backgroundColor: 'rgba(54, 162, 235, 0.5)',
+          borderColor: 'rgba(54, 162, 235, 1)',
+          borderWidth: 1
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          tooltip: {
+            callbacks: {
+              label: function(context) {
+                return `${context.raw.label}: (${context.raw.x}, ${context.raw.y})`;
+              }
+            }
+          }
+        },
+        scales: {
+          x: {
+            title: {
+              display: true,
+              text: 'PI Rank'
+            }
+          },
+          y: {
+            title: {
+              display: true,
+              text: 'Ranking Points'
+            }
+          }
+        }
+      }
+    });
+  }
+
+  function updateGraph() {
+    const xAxis = document.getElementById('x-axis').value;
+    const yAxis = document.getElementById('y-axis').value;
+
+    fetch('NC_Data.json')
+            .then(response => response.json())
+            .then(data => {
+              const mappedData = data.map(team => ({
+                x: team[xAxis] || 0,
+                y: team[yAxis] || 0,
+                label: team.team_name
+              }));
+
+              // Update chart
+              chart.data.datasets[0].data = mappedData;
+              chart.options.scales.x.title.text = xAxis.replace('_', ' ').toUpperCase();
+              chart.options.scales.y.title.text = yAxis.replace('_', ' ').toUpperCase();
+              chart.update();
+            });
+  }
 </script>
 </body>
 </html>
